@@ -4,3 +4,55 @@ body{
     color: lightblue;
     background-color: lightslategray;
 }
+
+a{
+    text-decoration: none;
+    color: lavender;
+}
+
+ul{
+    list-style: none;
+
+}
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lavender;
+    border: none;
+    background-color: transparent;
+}
+
+i{
+    font-size: 38;
+}
+
+.header{
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    text-align: center;
+}
+
+.list{
+    margin-top: 40px;
+    display: inline;
+    gap: 10px;
+    display: flex;
+    text-align: left;
+}
+
+.list-right img{
+    height: 30px;
+    width: auto; 
+}
+
+.list-right{
+    margin-top: 40px;
+    gap: 10px;
+}
